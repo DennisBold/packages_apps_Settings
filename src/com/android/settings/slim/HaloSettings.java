@@ -114,11 +114,11 @@ public class HaloSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(mContext.getContentResolver(),
                     Settings.System.HALO_REVERSED, mHaloReversed.isChecked()
                     ? 1 : 0);
-	} else if (preference == mHaloPause) {
+        } else if (preference == mHaloPause) {
             Settings.System.putInt(mContext.getContentResolver(),
                     Settings.System.HALO_PAUSE, mHaloPause.isChecked()
                     ? 1 : 0);
-	}
+        }
 	return true;
       }
 
